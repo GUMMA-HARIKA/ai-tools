@@ -9,15 +9,17 @@ color:#333;
 display: flex;
 justify-content: center;
 }
-.container{
+.container {
     background-color: aliceblue;
-    width:50%;
-    min-width: 800px;
-    padding:5px;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 17px 30px rgb(0,0,0,0.1);
+    box-shadow: 0 17px 30px rgba(0, 0, 0, 0.1);
+    margin: auto;
 }
+
 h1{
     font-size: 3rem;
     font-family: pt serif;
@@ -45,17 +47,26 @@ a:hover{
     color: rgb(79, 5, 149);
     cursor: pointer;
 }
-button{
-    width:auto;
-    padding: 8px;
-    font-size: 1.5rem;
-    background-color: rgba(27, 3, 245, 0.914);
-    border-radius: 5px;
+button {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background-color: rgba(27, 3, 245, 0.914);
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  max-width: 100%;
 }
+
 button:hover{
     background-color: rgb(217, 43, 226);
 }
 li {
-  margin-top: 10px;
+  margin-bottom: 10px;
   line-height: 1.6;
 }
+.button-wrapper {
+  text-align: center;
+}
+
